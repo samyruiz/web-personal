@@ -13,20 +13,21 @@
 .container-menu {
     background-color: #084887;
     width: 20%;
-    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
-.menu ul {
-    list-style: none;
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .menu ul li {
+    list-style: none;
     padding-top: 50px;
 }
 
@@ -34,7 +35,6 @@
     align-self: center;
     font-family: 'Tinos', serif;
     width: 100%;
-    
 }
 
 .circulo {
