@@ -10,11 +10,24 @@
     justify-content: space-between;
 }
 
-.menu {
+.container-menu {
     background-color: #084887;
     width: 20%;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    padding-top: 50px;
 }
 
 .banner {
@@ -32,9 +45,8 @@
     border-radius: 100%;
     margin-left: 250px;
     position:absolute;
-    top: 180px;
+    top: 160px;
     z-index: -100;
-
 }
 
 .banner-contain {
@@ -56,5 +68,6 @@
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
-
 }
+
+
