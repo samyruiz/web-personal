@@ -38,8 +38,8 @@
 }
 
 .circulo {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     margin: auto;
     background-color: #00B3EB;
     border-radius: 100%;
@@ -52,7 +52,7 @@
 .banner-contain {
     text-align: center;
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
     color: #084887;
 
 }
@@ -67,7 +67,7 @@
     background-color: #084887;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 /* ABOUT US SECTION*/
@@ -90,12 +90,51 @@
     flex-direction: column;
     justify-content: center;
     width: 500px;
-    height: 500px;
+    height: 300px;
     background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+
+.dw {
+    color: #084887;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bio h3 {
+    font-family: 'Tinos', serif;
+    font-size: 36px;
+    color: #084887;
+    text-align: center;
+}
+
+.bio p {
+    margin-top: 10px;
 }
 
 .photo img{
     width: 400px;
     border-radius: 100%;
-    margin-left: 50px;
+    margin-left: 70px;
+    border: 10px solid white;
 }
+
+/*SKILLS SECTION*/
+
+.skills {
+    height: 100vh;
+    background-color: #084887;
+}
+
+/*PORTFOLIO SECTION*/
+
+.portfolio {
+    height: 20vh;
+    background-color: #00B3EB;
+}
+
+/*FOOTER SECTION*/
