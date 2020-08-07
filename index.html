@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tinos:wght@700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body>
     <header class="header" id="header">
@@ -44,13 +45,11 @@
                 <p>Soy una persona alegre que siempre tiene una sonrisa y que siempre está aprendiendo algo nuevo.</p>
                 <p>Me gusta todo lo relacionado a la parte Front End de los sitios y aplicaciones web por lo cual estudié un técnico en diseño web.</p>
                 <p>En mis tiempos libres escucho música y toco la guitarra.</p>
-            
             </div>
             <div class="photo">
                 <img src="images/about_us.jpg" alt="Foto de la sección acerca de">
             </div>
         </div>
-
     </section>
 
     <section class="skills" id="skills">
@@ -58,7 +57,6 @@
         <div class="skills-container">
             <div class="frontend">
                 <h4 class="skills-subtitles">Desarrollo Front-End</h4>
-                <hr>
                 <ul class="list">
                     <li class="developer-icon"><i class="far fa-file-code"></i></li>
                     <li>Html5</li>
@@ -72,7 +70,6 @@
             </div>
             <div class="design-programs">
                 <h4 class="skills-subtitles">Programas de Diseño</h4>
-                <hr>
                 <ul class="list">
                     <li class="design-icon"><i class="fas fa-palette"></i></li>
                     <li>Photoshop</li>
@@ -84,7 +81,6 @@
             </div>
             <div class="others">
                 <h4 class="skills-subtitles">Otras habilidades</h4>
-                <hr>
                 <ul class="list">
                     <li class="others-icon"><i class="fas fa-guitar"></i></li>
                     <li>Tocar Guitarra</li>
@@ -98,23 +94,55 @@
 
     </section>
 
-    <section class="portfolio" id="portfolio">
-        <div class="portfolio-container">
-            
-        </div>
-    </section>
+    <div class="portfolio-section" id="portfolio">
+        <h3 class="portfolio-subtitles">PORTAFOLIO</h3>
+        <section class="portfolio">
+            <div class="portfolio-container">
+                <div class="row-one">
+                    <a href="images/galeria1.png" data-fancybox="gallery" data-caption="Proyecto final del Técnico en Diseño Web 2019 musicshop.mipropia.com">
+                        <img class="img1" src="images/galeria1.png" alt="placebolder">
+                    </a>
+                    <a href="images/galeria2.png" data-fancybox="gallery" data-caption="image one">
+                        <img class="img1" src="images/galeria2.png" alt="placebolder">
+                    </a>
+
+                    <a href="images/galeria3.png" data-fancybox="gallery" data-caption="image one">
+                        <img class="img1" src="images/galeria3.png" alt="placebolder">
+                    </a>
+                </div>
+                <div class="row-two">
+                    <a href="https://via.placeholder.com/1080x1350" data-fancybox="gallery" data-caption="image one">
+                        <img class="img1" src="https://via.placeholder.com/1080x1350" alt="placebolder">
+                    </a>
+                    <a href="https://via.placeholder.com/1080x1350" data-fancybox="gallery" data-caption="image one">
+                        <img class="img1" src="https://via.placeholder.com/1080x1350" alt="placebolder">
+                    </a>
+                    <a href="https://via.placeholder.com/1080x1350" data-fancybox="gallery" data-caption="image one">
+                        <img class="img1" src="https://via.placeholder.com/1080x1350" alt="placebolder">
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </div>
 
 
     <footer class="footer">
         <div class="footer-content">
-            <p>Guatemala 2020 | Diseñado y desarrollado por Samy Ruiz</p>
+            <p>Guatemala 2020 | Diseñado y desarrollado por <strong>SAMY RUIZ</strong></p>
             <ul>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></i></li>
-                <li><a href="#"><i class="fab fa-github-square"></i></a></i></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/samy-ruiz/"><i class="fab fa-linkedin"></i></a></i></li>
+                <li><a target="_blank" href="https://github.com/samyruiz"><i class="fab fa-github-square"></i></a></i></li>
+                <li><a target="_blank" href="https://www.instagram.com/samyruizz/"><i class="fab fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/samyruizz"><i class="fab fa-twitter"></i></a></li>
             </ul>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.fancybox.min.css"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/portfolio.js"></script>
 </body>
 </html> 
