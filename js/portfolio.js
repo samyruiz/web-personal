@@ -8,3 +8,15 @@ $('[data-fancybox]').fancybox({
       ]
 	
 })
+
+const typed = new Typed('.type', {
+  strings: [
+    'ISEÑADOR WEB',
+    'ESARROLLADOR WEB'
+  ],
+  typeSpeed: 75,
+  startDelay: 300,
+  backSpeed: 75,
+  backDelay: 1450,
+  loop: true
+});

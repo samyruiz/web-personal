@@ -196,6 +196,7 @@ html {
     margin-bottom: 10px;
     border-bottom: 1px solid #00B3EB;
     padding-bottom: 10px;
+    color: #00B3EB;
 }
 
 .skills-subtitles:hover {
@@ -267,9 +268,67 @@ html {
     margin-right: 20px;
 }
 
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    transition: transform .2s;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+    transform: scale(1.025);
+    opacity: 0.9;
+}
+
 .img3, .img6 {
     margin-left: 20px;
+    transition: 0.2s;
+    size: 1%;
 }
+
+
+/*CONTACT SECTION*/
+.contact {
+    height: 80vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.phone, .email, .address {
+    width: 360px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: .3s ease box-shadow;
+    color: #084887;
+}
+
+.phone:hover, .email:hover, .address:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.phone {
+    margin-right: 20px;
+
+}
+
+.address {
+    margin-left: 20px;
+}
+
+.contact-icon {
+    font-size: 50px;
+    margin-right: 20px;
+    color: #00B3EB;
+}
+
+
 
 /*FOOTER SECTION*/
 
@@ -312,7 +371,7 @@ html {
     .banner-contain {
         text-align: center;
         margin: auto;
-        font-size: 35px;
+        font-size: 30px;
         color: #084887;
     
     }
@@ -384,6 +443,25 @@ html {
         margin-right: 10px;
     }
 
+    .contact {
+        height: auto;
+        font-size: 15px;
+    }
+
+    .contact-container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .address {
+        width: 96%;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .footer-content {
         flex-direction: column-reverse;
 
@@ -408,7 +486,7 @@ html {
     }
 
     .banner-contain {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .banner-contain h1 {
@@ -416,10 +494,10 @@ html {
     }
 
     .circulo {
-        width: 200px;
-        height: 200px;
-        margin-left: 10px;
-        top: 200px;
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        top: 250px;
     }
 
     .bio {
@@ -478,6 +556,13 @@ html {
     .frontend, .design-programs, .others {
         width: auto;
         margin-right: 0;
+    }
+
+    .phone, .email, .address {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 0;
     }
 
 }
