@@ -11,8 +11,7 @@ $('[data-fancybox]').fancybox({
 
 const typed = new Typed('.type', {
   strings: [
-    'ISEÑADOR WEB',
-    'ESARROLLADOR WEB'
+    'DISEÑADOR WEB'
   ],
   typeSpeed: 75,
   startDelay: 300,
